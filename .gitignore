@@ -72,12 +72,41 @@ crashlytics-build.properties
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
-/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/[Aa]ssets/[Ss]treamingAssets/aa/*
-/Logs/
+# Ignore Unity-generated files
 /Library/
+/Logs/
 /Temp/
-/Assets/TextMesh/
+/Builds/
 /.utmp/
-/Assets/Components/
-/ProjectSettings/
+
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.vs/
+/.gradle/
+/ExportedObj/
+/.consulo/
+/*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.unitypackage
+*.apk
+*.aab
+*.app
+crashlytics-build.properties
+
