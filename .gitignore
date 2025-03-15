@@ -109,4 +109,10 @@ crashlytics-build.properties
 *.aab
 *.app
 crashlytics-build.properties
+# Ignore macOS system files
+.DS_Store
 
+# Ignore Unity temporary and crash files
+TempAssembly.dll
+*.json
+mono_crash.*
